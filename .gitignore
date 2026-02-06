@@ -1,37 +1,32 @@
-# Dependencies
-node_modules/
-vendor/
-.venv/
-__pycache__/
+# deps
+node_modules
 
-# Build outputs
-dist/
-build/
-*.o
-*.a
-*.so
-*.dylib
+# build
+dist
+dist-ssr
+.output
+.nitro
+.vinxi
 
-# IDE
-.idea/
-.vscode/
+# generated
+.tanstack
+.lighthouseci
+*.local
+
+# env
+.env
+.env.*
+!.env.example
+.dev.vars
+
+# os
+.DS_Store
+Thumbs.db
+
+# editors
 *.swp
 *.swo
 *~
 
-# OS
-.DS_Store
-Thumbs.db
-
-# Environment
-.env
-.env.local
-*.local
-
-# Logs
-*.log
-logs/
-
-# Coverage
-coverage/
-.nyc_output/
+# tools
+.playwright-mcp

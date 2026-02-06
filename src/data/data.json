@@ -1,0 +1,157 @@
+{
+  "theme": "monochrome",
+  "github": "skulltrail",
+  "illustration": false,
+  "profile": {
+    "name": "Skulltrail",
+    "handle": "skulltrail",
+    "avatar": "https://github.com/skulltrail.png",
+    "banner": "https://skulltrail.com/images/wallpaper.png",
+    "bio": "A software engineer working on all kinds of things. Interested in interesting stuff.",
+    "location": "The Internet",
+    "email": "skulltrail@skulltrail.com"
+  },
+  "roles": [
+    "Software Engineer",
+    "Open Source Developer",
+    "Systems Tinkerer",
+    "Self-Hosting Enthusiast",
+    "CLI Tool Builder"
+  ],
+  "socials": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/skulltrail",
+      "icon": "github"
+    },
+    {
+      "name": "Blog",
+      "url": "https://blog.skulltrail.com",
+      "icon": "globe",
+      "disabled": true,
+      "disabledLabel": "Coming Soon"
+    },
+    {
+      "name": "Email",
+      "url": "mailto:skulltrail@skulltrail.com",
+      "icon": "mail"
+    }
+  ],
+  "skills": [
+    {
+      "name": "TypeScript",
+      "icon": "code",
+      "color": "#3178C6"
+    },
+    {
+      "name": "Go",
+      "icon": "terminal",
+      "color": "#00ADD8"
+    },
+    {
+      "name": "Rust",
+      "icon": "cpu",
+      "color": "#DEA584"
+    },
+    {
+      "name": "React",
+      "icon": "layers",
+      "color": "#61DAFB"
+    },
+    {
+      "name": "Node.js",
+      "icon": "server",
+      "color": "#339933"
+    },
+    {
+      "name": "Docker",
+      "icon": "package",
+      "color": "#2496ED"
+    },
+    {
+      "name": "Self-Hosting",
+      "icon": "cloud",
+      "color": "#8B5CF6"
+    },
+    {
+      "name": "CLI Tools",
+      "icon": "terminal",
+      "color": "#EF4444"
+    }
+  ],
+  "experience": [],
+  "education": [],
+  "projects": [
+    {
+      "id": "1",
+      "title": "nutube",
+      "slug": "nutube",
+      "description": "Chrome extension for enhancing the YouTube experience.",
+      "image": "",
+      "tags": ["Chrome Extension", "YouTube", "TypeScript"],
+      "github": "https://github.com/skulltrail/nutube",
+      "demo": null,
+      "featured": true
+    },
+    {
+      "id": "2",
+      "title": "roulette",
+      "slug": "roulette",
+      "description": "Roulette.",
+      "image": "",
+      "tags": ["Game", "Web"],
+      "github": "https://github.com/skulltrail/roulette",
+      "demo": null,
+      "featured": true
+    },
+    {
+      "id": "3",
+      "title": "imdbarr",
+      "slug": "imdbarr",
+      "description": "Local API to support IMDb Watchlists in Sonarr.",
+      "image": "",
+      "tags": ["API", "IMDb", "Sonarr", "Self-Hosting"],
+      "github": "https://github.com/skulltrail/imdbarr",
+      "demo": null,
+      "featured": true
+    },
+    {
+      "id": "4",
+      "title": "retcon",
+      "slug": "retcon",
+      "description": "Retcon.",
+      "image": "",
+      "tags": [],
+      "github": "https://github.com/skulltrail/retcon",
+      "demo": null,
+      "featured": true
+    },
+    {
+      "id": "5",
+      "title": "arrpraisal",
+      "slug": "arrpraisal",
+      "description": "Appraise your collection.",
+      "image": "",
+      "tags": ["Media", "Self-Hosting"],
+      "github": "https://github.com/skulltrail/arrpraisal",
+      "demo": null,
+      "featured": true
+    },
+    {
+      "id": "6",
+      "title": "tidy",
+      "slug": "tidy",
+      "description": "Tidy.",
+      "image": "",
+      "tags": [],
+      "github": "https://github.com/skulltrail/tidy",
+      "demo": null,
+      "featured": true
+    }
+  ],
+  "blogs": [],
+  "quotes": [
+    "Interested in interesting stuff.",
+    "Named after Intel's 2008 Skulltrail D5400XS platform."
+  ]
+}
