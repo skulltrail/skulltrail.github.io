@@ -113,6 +113,7 @@ export default function Projects({ projects }: ProjectsProps) {
                         href={project.github}
                         target="_blank"
                         rel="noopener noreferrer"
+                        aria-label={`${project.title} on GitHub`}
                         onClick={(e) => e.stopPropagation()}
                         className="p-1.5 rounded-md backdrop-blur-md transition-colors bg-black/50 hover:bg-black/70 text-white cursor-pointer"
                       >
@@ -124,6 +125,7 @@ export default function Projects({ projects }: ProjectsProps) {
                         href={project.demo}
                         target="_blank"
                         rel="noopener noreferrer"
+                        aria-label={`${project.title} demo`}
                         onClick={(e) => e.stopPropagation()}
                         className="p-1.5 rounded-md backdrop-blur-md transition-colors bg-black/50 hover:bg-black/70 text-white cursor-pointer"
                       >

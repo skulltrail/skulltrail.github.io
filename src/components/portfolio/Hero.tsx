@@ -35,6 +35,9 @@ export default function Hero({ profile, roles, socials }: HeroProps) {
           />
           <button
             onClick={(e) => setMode(mode === "dark" ? "light" : "dark", e)}
+            aria-label={
+              mode === "dark" ? "Switch to light mode" : "Switch to dark mode"
+            }
             className="absolute top-3 right-3 p-2 rounded-lg transition-colors backdrop-blur-sm hover:bg-white/30 cursor-pointer"
             style={{
               backgroundColor: "rgba(255,255,255,0.2)",
@@ -209,13 +212,13 @@ export default function Hero({ profile, roles, socials }: HeroProps) {
                 <motion.span
                   key={social.name}
                   title={social.disabledLabel || "Coming Soon"}
-                  className="inline-flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-xl text-xs sm:text-sm transition-all duration-200 cursor-not-allowed opacity-50"
+                  className="inline-flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-xl text-xs sm:text-sm transition-all duration-200 cursor-not-allowed"
                   style={{
                     backgroundColor:
                       mode === "dark"
                         ? "rgba(255,255,255,0.05)"
                         : "rgba(0,0,0,0.05)",
-                    color: `${colors.foreground}b3`,
+                    color: `${colors.foreground}99`,
                   }}
                 >
                   <Icon

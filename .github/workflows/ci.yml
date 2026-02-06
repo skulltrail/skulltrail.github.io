@@ -59,7 +59,7 @@ jobs:
       - run: pnpm build
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: .output/public
+          path: dist/client
 
   lighthouse:
     name: Lighthouse
@@ -75,8 +75,6 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - run: npm install -g @lhci/cli
       - run: pnpm build
-      - run: pnpm preview &
-      - run: sleep 5
       - run: lhci autorun
       - uses: actions/upload-artifact@v4
         if: always()
